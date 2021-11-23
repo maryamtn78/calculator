@@ -12,14 +12,14 @@
     margin: 80px auto;
     display: flex;
     flex-direction:column;
-
+   
 }
 .display{
-    border: 2px solid red;
     height: 80px;
     text-align: right;
     padding:25px;
     font-size: 35px;
+    color:#576574;
 }
 .buttons{
     margin-top: 10px;
@@ -40,6 +40,7 @@
 -webkit-box-shadow: 4px 4px 54px -7px rgba(31,33,35,0.75) inset;
 -moz-box-shadow: 4px 4px 54pw:x -7px rgba(31,33,35,0.75) inset;
 
+cursor: pointer;
 }
 .zero{
     grid-column-start: 1;
